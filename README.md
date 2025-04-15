@@ -1,6 +1,8 @@
 # Graphing Calculator
 A simple graphing calculator made in Python using Pygame.
 
+![Screenshot of program](https://github.com/user-attachments/assets/c46b1366-93ef-49ec-b448-50f10306e936)
+
 # Usage
 ## Settings
 - `WIDTH` and `HEIGHT` change the width and height of the window, respectively.
