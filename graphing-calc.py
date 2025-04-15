@@ -18,20 +18,13 @@ FCOL = (255, 0, 0)
 
 # function to graph
 def f(x):
-    return tan(x)
+    return 2 ** x
 
 # coordinate transforms
 def ctrans(x, y):
     sx = WIDTH // 2 + x * (WIDTH / SIZE)
     sy = HEIGHT // 2 - y * (WIDTH / SIZE)
     return int(sx), int(sy)
-
-# factorial
-def fact(n):
-    if n == 0:
-        return 1
-    else:
-        return n * fact(n-1)
 
 # point list
 fp = []
