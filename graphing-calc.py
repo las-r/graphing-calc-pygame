@@ -18,7 +18,7 @@ FCOL = (255, 0, 0)
 
 # function to graph
 def f(x):
-    return 2 ** x
+    return tan(x)
 
 # coordinate transforms
 def ctrans(x, y):
